@@ -1,0 +1,169 @@
+/* For Maximum Width 1000  */
+@media all and (max-width: 1000px) {
+  /* Header Starts Here*/
+  header {
+    height: 65px;
+    width : 100%;
+    background-color : #5F5F5F;
+    opacity : 0.9;
+    position : fixed;
+    top : 0;
+    z-index : 10;
+  }
+  .logo {
+    width: 133px;
+    margin-right: 3px;
+    margin-left: 5px;
+  }
+  .logo:hover {
+    background-color:#6d6b6b;
+  }
+  .left-head {
+    float: left;
+  }
+  .right-head {
+    float: right;
+    margin-right: 5px;
+  }
+  .right-head a {
+    line-height: 65px;
+    padding: 0  -15px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  span.menu-icon{
+    color: white;
+    float: right;
+    font-size: 15px;
+    padding:  0px 15px;
+    display:none;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    padding: 0 180px ;
+  }
+  .container {
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Starts Here  */
+  footer .container {
+    background-color: #5F5F5F;  
+    width: fit-content;
+  }
+
+  footer {
+    height: 90px;
+    width: 100%;
+    opacity: 0.9;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .right-foot a {
+    line-height: 65px;
+    padding: 0px 50px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .right-foot {
+  float: right;
+  }
+
+  .left-foot {
+  padding-right: 170px;
+  }
+
+}
+  
+/* For Maximum Width 670  */
+@media all and (max-width: 670px) {
+  /* Header Starts Here*/
+  header {
+    height: 65px;
+    width : 100%;
+    background-color : #5F5F5F;
+    opacity : 0.9;
+    position : fixed;
+    top : 0;
+    z-index : 10;
+  }
+  .top-wrapper {
+    background-size: cover;
+    background-image: url(/Images/ana.jpg);
+    color: white;
+    text-align: center;
+  }
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  /* Social Starts Here*/
+  social h2 {
+    font-size: 40px;
+  }
+
+  .social {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 70px;
+    background-color:#D3D3D3;
+  }  
+
+  social .li1 {
+    float: right;
+    margin-right: 100px;
+  }
+  
+  social .li2 {
+    float: left;
+    margin-left: 100px;
+  }
+
+  /* Footer Starts Here*/
+  footer .container {
+    background-color: #5F5F5F;  
+    padding-top: 10px 0px 0px 0px;
+    width: fit-content;  
+  }
+  
+  footer {
+    height: 90px;
+    width: 100%;
+    opacity: 0.9;
+    top: 0;
+    z-index: 10;
+  }
+
+  .right-foot a {
+    line-height: 25px;
+    padding: 0px 10px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+  .right-foot {
+  float: right;
+  padding: 20px 0px 0px 0px;
+  }
+  
+  .left-foot {
+  padding: 10px -150px 0px 0px;
+  font-size: 10px;
+  }
+}
